@@ -93,7 +93,7 @@ const createState = (noBase) => {
         fronteira.push(novoNo);
     }
 }
-
+//Foi utilizado busca em largura, pois era necessário uma solução ótima
 const busca = () => {
     const noAtual = fronteira.shift();;
     if (noAtual.margemDireita.missionarios === 3 && noAtual.margemDireita.canibais === 3) return noAtual;
