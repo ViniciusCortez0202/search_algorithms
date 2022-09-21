@@ -1,0 +1,744 @@
+{
+    "estado": 1,
+    "pai": null,
+    "margemEsquerda": {
+        "missionarios": 3,
+        "canibais": 3
+    },
+    "margemDireita": {
+        "missionarios": 0,
+        "canibais": 0
+    },
+    "profundidade": 0,
+    "filhos": [
+        {
+            "estado": 2,
+            "pai": 1,
+            "margemEsquerda": {
+                "missionarios": 2,
+                "canibais": 3
+            },
+            "margemDireita": {
+                "missionarios": 1,
+                "canibais": 0
+            },
+            "profundidade": 1,
+            "filhos": []
+        },
+        {
+            "estado": 3,
+            "pai": 1,
+            "margemEsquerda": {
+                "missionarios": 1,
+                "canibais": 3
+            },
+            "margemDireita": {
+                "missionarios": 2,
+                "canibais": 0
+            },
+            "profundidade": 1,
+            "filhos": []
+        },
+        {
+            "estado": 4,
+            "pai": 1,
+            "margemEsquerda": {
+                "missionarios": 3,
+                "canibais": 2
+            },
+            "margemDireita": {
+                "missionarios": 0,
+                "canibais": 1
+            },
+            "profundidade": 1,
+            "filhos": [
+                {
+                    "estado": 7,
+                    "pai": 4,
+                    "margemEsquerda": {
+                        "missionarios": 2,
+                        "canibais": 2
+                    },
+                    "margemDireita": {
+                        "missionarios": 1,
+                        "canibais": 1
+                    },
+                    "profundidade": 2,
+                    "filhos": [
+                        {
+                            "estado": 21,
+                            "pai": 7,
+                            "margemEsquerda": {
+                                "missionarios": 1,
+                                "canibais": 2
+                            },
+                            "margemDireita": {
+                                "missionarios": 2,
+                                "canibais": 1
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 22,
+                            "pai": 7,
+                            "margemEsquerda": {
+                                "missionarios": 0,
+                                "canibais": 2
+                            },
+                            "margemDireita": {
+                                "missionarios": 3,
+                                "canibais": 1
+                            },
+                            "profundidade": 3,
+                            "filhos": [
+                                {
+                                    "estado": 42,
+                                    "pai": 22,
+                                    "margemEsquerda": {
+                                        "missionarios": 0,
+                                        "canibais": 1
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 3,
+                                        "canibais": 2
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                },
+                                {
+                                    "estado": 43,
+                                    "pai": 22,
+                                    "margemEsquerda": {
+                                        "missionarios": 0,
+                                        "canibais": 0
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 3,
+                                        "canibais": 3
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "estado": 23,
+                            "pai": 7,
+                            "margemEsquerda": {
+                                "missionarios": 2,
+                                "canibais": 1
+                            },
+                            "margemDireita": {
+                                "missionarios": 1,
+                                "canibais": 2
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 24,
+                            "pai": 7,
+                            "margemEsquerda": {
+                                "missionarios": 2,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 1,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 25,
+                            "pai": 7,
+                            "margemEsquerda": {
+                                "missionarios": 1,
+                                "canibais": 1
+                            },
+                            "margemDireita": {
+                                "missionarios": 2,
+                                "canibais": 2
+                            },
+                            "profundidade": 3,
+                            "filhos": [
+                                {
+                                    "estado": 44,
+                                    "pai": 25,
+                                    "margemEsquerda": {
+                                        "missionarios": 0,
+                                        "canibais": 1
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 3,
+                                        "canibais": 2
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                },
+                                {
+                                    "estado": 45,
+                                    "pai": 25,
+                                    "margemEsquerda": {
+                                        "missionarios": 1,
+                                        "canibais": 0
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 2,
+                                        "canibais": 3
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                },
+                                {
+                                    "estado": 46,
+                                    "pai": 25,
+                                    "margemEsquerda": {
+                                        "missionarios": 0,
+                                        "canibais": 0
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 3,
+                                        "canibais": 3
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "estado": 8,
+                    "pai": 4,
+                    "margemEsquerda": {
+                        "missionarios": 1,
+                        "canibais": 2
+                    },
+                    "margemDireita": {
+                        "missionarios": 2,
+                        "canibais": 1
+                    },
+                    "profundidade": 2,
+                    "filhos": []
+                },
+                {
+                    "estado": 9,
+                    "pai": 4,
+                    "margemEsquerda": {
+                        "missionarios": 3,
+                        "canibais": 1
+                    },
+                    "margemDireita": {
+                        "missionarios": 0,
+                        "canibais": 2
+                    },
+                    "profundidade": 2,
+                    "filhos": [
+                        {
+                            "estado": 26,
+                            "pai": 9,
+                            "margemEsquerda": {
+                                "missionarios": 2,
+                                "canibais": 1
+                            },
+                            "margemDireita": {
+                                "missionarios": 1,
+                                "canibais": 2
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 27,
+                            "pai": 9,
+                            "margemEsquerda": {
+                                "missionarios": 1,
+                                "canibais": 1
+                            },
+                            "margemDireita": {
+                                "missionarios": 2,
+                                "canibais": 2
+                            },
+                            "profundidade": 3,
+                            "filhos": [
+                                {
+                                    "estado": 47,
+                                    "pai": 27,
+                                    "margemEsquerda": {
+                                        "missionarios": 0,
+                                        "canibais": 1
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 3,
+                                        "canibais": 2
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                },
+                                {
+                                    "estado": 48,
+                                    "pai": 27,
+                                    "margemEsquerda": {
+                                        "missionarios": 1,
+                                        "canibais": 0
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 2,
+                                        "canibais": 3
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                },
+                                {
+                                    "estado": 49,
+                                    "pai": 27,
+                                    "margemEsquerda": {
+                                        "missionarios": 0,
+                                        "canibais": 0
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 3,
+                                        "canibais": 3
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "estado": 28,
+                            "pai": 9,
+                            "margemEsquerda": {
+                                "missionarios": 3,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 0,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": [
+                                {
+                                    "estado": 50,
+                                    "pai": 28,
+                                    "margemEsquerda": {
+                                        "missionarios": 2,
+                                        "canibais": 0
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 1,
+                                        "canibais": 3
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                },
+                                {
+                                    "estado": 51,
+                                    "pai": 28,
+                                    "margemEsquerda": {
+                                        "missionarios": 1,
+                                        "canibais": 0
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 2,
+                                        "canibais": 3
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "estado": 29,
+                            "pai": 9,
+                            "margemEsquerda": {
+                                "missionarios": 2,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 1,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "estado": 10,
+                    "pai": 4,
+                    "margemEsquerda": {
+                        "missionarios": 3,
+                        "canibais": 0
+                    },
+                    "margemDireita": {
+                        "missionarios": 0,
+                        "canibais": 3
+                    },
+                    "profundidade": 2,
+                    "filhos": [
+                        {
+                            "estado": 30,
+                            "pai": 10,
+                            "margemEsquerda": {
+                                "missionarios": 2,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 1,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 31,
+                            "pai": 10,
+                            "margemEsquerda": {
+                                "missionarios": 1,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 2,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "estado": 11,
+                    "pai": 4,
+                    "margemEsquerda": {
+                        "missionarios": 2,
+                        "canibais": 1
+                    },
+                    "margemDireita": {
+                        "missionarios": 1,
+                        "canibais": 2
+                    },
+                    "profundidade": 2,
+                    "filhos": []
+                }
+            ]
+        },
+        {
+            "estado": 5,
+            "pai": 1,
+            "margemEsquerda": {
+                "missionarios": 3,
+                "canibais": 1
+            },
+            "margemDireita": {
+                "missionarios": 0,
+                "canibais": 2
+            },
+            "profundidade": 1,
+            "filhos": [
+                {
+                    "estado": 12,
+                    "pai": 5,
+                    "margemEsquerda": {
+                        "missionarios": 2,
+                        "canibais": 1
+                    },
+                    "margemDireita": {
+                        "missionarios": 1,
+                        "canibais": 2
+                    },
+                    "profundidade": 2,
+                    "filhos": []
+                },
+                {
+                    "estado": 13,
+                    "pai": 5,
+                    "margemEsquerda": {
+                        "missionarios": 1,
+                        "canibais": 1
+                    },
+                    "margemDireita": {
+                        "missionarios": 2,
+                        "canibais": 2
+                    },
+                    "profundidade": 2,
+                    "filhos": [
+                        {
+                            "estado": 32,
+                            "pai": 13,
+                            "margemEsquerda": {
+                                "missionarios": 0,
+                                "canibais": 1
+                            },
+                            "margemDireita": {
+                                "missionarios": 3,
+                                "canibais": 2
+                            },
+                            "profundidade": 3,
+                            "filhos": [
+                                {
+                                    "estado": 52,
+                                    "pai": 32,
+                                    "margemEsquerda": {
+                                        "missionarios": 0,
+                                        "canibais": 0
+                                    },
+                                    "margemDireita": {
+                                        "missionarios": 3,
+                                        "canibais": 3
+                                    },
+                                    "profundidade": 4,
+                                    "filhos": []
+                                }
+                            ]
+                        },
+                        {
+                            "estado": 33,
+                            "pai": 13,
+                            "margemEsquerda": {
+                                "missionarios": 1,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 2,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 34,
+                            "pai": 13,
+                            "margemEsquerda": {
+                                "missionarios": 0,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 3,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "estado": 14,
+                    "pai": 5,
+                    "margemEsquerda": {
+                        "missionarios": 3,
+                        "canibais": 0
+                    },
+                    "margemDireita": {
+                        "missionarios": 0,
+                        "canibais": 3
+                    },
+                    "profundidade": 2,
+                    "filhos": [
+                        {
+                            "estado": 35,
+                            "pai": 14,
+                            "margemEsquerda": {
+                                "missionarios": 2,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 1,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 36,
+                            "pai": 14,
+                            "margemEsquerda": {
+                                "missionarios": 1,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 2,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "estado": 15,
+                    "pai": 5,
+                    "margemEsquerda": {
+                        "missionarios": 2,
+                        "canibais": 0
+                    },
+                    "margemDireita": {
+                        "missionarios": 1,
+                        "canibais": 3
+                    },
+                    "profundidade": 2,
+                    "filhos": []
+                }
+            ]
+        },
+        {
+            "estado": 6,
+            "pai": 1,
+            "margemEsquerda": {
+                "missionarios": 2,
+                "canibais": 2
+            },
+            "margemDireita": {
+                "missionarios": 1,
+                "canibais": 1
+            },
+            "profundidade": 1,
+            "filhos": [
+                {
+                    "estado": 16,
+                    "pai": 6,
+                    "margemEsquerda": {
+                        "missionarios": 1,
+                        "canibais": 2
+                    },
+                    "margemDireita": {
+                        "missionarios": 2,
+                        "canibais": 1
+                    },
+                    "profundidade": 2,
+                    "filhos": []
+                },
+                {
+                    "estado": 17,
+                    "pai": 6,
+                    "margemEsquerda": {
+                        "missionarios": 0,
+                        "canibais": 2
+                    },
+                    "margemDireita": {
+                        "missionarios": 3,
+                        "canibais": 1
+                    },
+                    "profundidade": 2,
+                    "filhos": [
+                        {
+                            "estado": 37,
+                            "pai": 17,
+                            "margemEsquerda": {
+                                "missionarios": 0,
+                                "canibais": 1
+                            },
+                            "margemDireita": {
+                                "missionarios": 3,
+                                "canibais": 2
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 38,
+                            "pai": 17,
+                            "margemEsquerda": {
+                                "missionarios": 0,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 3,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        }
+                    ]
+                },
+                {
+                    "estado": 18,
+                    "pai": 6,
+                    "margemEsquerda": {
+                        "missionarios": 2,
+                        "canibais": 1
+                    },
+                    "margemDireita": {
+                        "missionarios": 1,
+                        "canibais": 2
+                    },
+                    "profundidade": 2,
+                    "filhos": []
+                },
+                {
+                    "estado": 19,
+                    "pai": 6,
+                    "margemEsquerda": {
+                        "missionarios": 2,
+                        "canibais": 0
+                    },
+                    "margemDireita": {
+                        "missionarios": 1,
+                        "canibais": 3
+                    },
+                    "profundidade": 2,
+                    "filhos": []
+                },
+                {
+                    "estado": 20,
+                    "pai": 6,
+                    "margemEsquerda": {
+                        "missionarios": 1,
+                        "canibais": 1
+                    },
+                    "margemDireita": {
+                        "missionarios": 2,
+                        "canibais": 2
+                    },
+                    "profundidade": 2,
+                    "filhos": [
+                        {
+                            "estado": 39,
+                            "pai": 20,
+                            "margemEsquerda": {
+                                "missionarios": 0,
+                                "canibais": 1
+                            },
+                            "margemDireita": {
+                                "missionarios": 3,
+                                "canibais": 2
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 40,
+                            "pai": 20,
+                            "margemEsquerda": {
+                                "missionarios": 1,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 2,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        },
+                        {
+                            "estado": 41,
+                            "pai": 20,
+                            "margemEsquerda": {
+                                "missionarios": 0,
+                                "canibais": 0
+                            },
+                            "margemDireita": {
+                                "missionarios": 3,
+                                "canibais": 3
+                            },
+                            "profundidade": 3,
+                            "filhos": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
