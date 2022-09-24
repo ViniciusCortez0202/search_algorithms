@@ -61,6 +61,17 @@ const adicionarFronteira = (fronteira, arg) => {
     fronteira.unshift(value)
 }
 
+const contains = (filho, pai, avo) => {
+    for(let i = 0; i < 4; i++){
+        let retorno = false;
+        retorno = linhas[i].includes(filho);
+        retorno = linhas[i].includes(pai);
+        retorno = linhas[i].includes(avo);
+        if(retorno) return retorno;
+    }
+    return false;
+}
+
 const criarFilhos = (pai) => {
 
     const filhos = listaAdj.get(pai.estado)
@@ -71,8 +82,8 @@ const criarFilhos = (pai) => {
         noFilho.estado = filho;
         noFilho.pai = pai.estado;
         noFilho.heuristica = h[pai.estado][filho];
-        noFilho.custo = pai.custo + (noFilho.heuristica / 30) + (linhas.includes([filho, pai.estado, pai.pai]) ? 0.67 : 0);
-        noFilho.aEstrela = noFilho.heuristica + noFilho.custo;
+        noFilho.custo = pai.custo + (noFilho.heuristica / 30) + (contains(filho, pai.estado, pai.pai) ? 0 : 0.67);
+        noFilho.aEstrela = (noFilho.heuristica / 30) + noFilho.custo;
         noFilho.profundidade += 1;
         pai.filhos.push(noFilho);
         adicionarFronteira(fronteira, noFilho)
